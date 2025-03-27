@@ -63,7 +63,7 @@ If both a **Resource** and an **Organization ID** are provided, the refresh requ
 
 :::note
 
-Include `login consent` in **Prompt** parameters when testing refresh grants to avoid `Not authenticated` errors.
+Include `consent` in the prompt parameter for `offline_access`. A `refresh token` will only be issued if the prompt includes `consent`.
 
 :::
 
